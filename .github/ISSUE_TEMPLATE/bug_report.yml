@@ -1,0 +1,66 @@
+name: RealisticSRBs Bug Report
+description: Report a bug with RealisticSRBs for KSP1
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug!
+        Please provide enough information to help reproduce it.
+
+  - type: input
+    id: mod_version
+    attributes:
+      label: RealisticSRBs version
+      description: Which version of the mod are you using?
+      placeholder: "e.g. 0.1.0"
+    validations:
+      required: true
+
+  - type: input
+    id: ksp_version
+    attributes:
+      label: KSP1 version
+      description: Which version of Kerbal Space Program are you using?
+      placeholder: "e.g. 1.12.5.3190"
+    validations:
+      required: true
+
+  - type: textarea
+    id: bug_description
+    attributes:
+      label: Bug description
+      description: Explain what went wrong.
+      placeholder: Describe the bug here...
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: Explain how to make the bug happen.
+      value: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What should have happened instead?
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: KSP.log errors and screenshots
+      description: Include relevant errors or screenshots if available. Remove personal information from logs before sharing.
+    validations:
+      required: false
