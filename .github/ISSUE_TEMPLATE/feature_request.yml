@@ -1,0 +1,47 @@
+name: RealisticSRBs Feature Request
+description: Suggest a new feature for RealisticSRBs
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a feature for RealisticSRBs!
+        Explain your idea clearly so it can be considered.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this feature solve?
+      description: Explain what's missing or could be improved.
+      placeholder: I would like to...
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Describe your proposed feature
+      description: How would you like the feature to work?
+      placeholder: The feature could...
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternative ideas
+      description: Have you considered any other ways to solve this?
+      placeholder: Other ideas...
+    validations:
+      required: false
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Additional information
+      description: Add screenshots, examples, or other useful details.
+      placeholder: Anything else to share...
+    validations:
+      required: false
